@@ -5,7 +5,7 @@ class Main extends React.Component {
     return (
       <div className="container-fluid">
         <div className="row">
-          <div className="col-sm-10 col-md-10 col-lg-6 offset-sm-1 offset-md-1 offset-lg-3">
+          <div className="col-sm-10 col-md-8 col-lg-6 offset-sm-1 offset-md-2 offset-lg-3">
             {this.props.children}
           </div>
         </div>
