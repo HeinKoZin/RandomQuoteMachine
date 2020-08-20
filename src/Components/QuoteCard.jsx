@@ -11,7 +11,7 @@ class QuoteCard extends React.Component {
     const quote = this.props.quote;
     return (
       <div
-        className="jumbotron text-left bg-white mt-3"
+        className="jumbotron text-left bg-white mt-5"
         id="quote-box"
         style={{ backgroundColor: "white" }}
       >
