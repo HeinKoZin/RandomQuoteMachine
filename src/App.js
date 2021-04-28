@@ -12,7 +12,7 @@ class App extends React.Component {
   };
 
   newQuote = () => {
-    fetch("https://programming-quotes-api.herokuapp.com/quotes/random")
+    fetch("https://freequote.herokuapp.com/")
       .then(res => res.json())
       .then(
         result => {

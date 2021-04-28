@@ -15,6 +15,12 @@
   #bg {
     clip-path: polygon(100% 0, 100% 58%, 72% 100%, 0 100%, 0 0);
   }
+  .footer{
+    color: white;
+  }
+  .footer>a{
+    color:whitesmoke;
+  }
 }
 
 #quote-box {
